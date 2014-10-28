@@ -1,7 +1,7 @@
 Auto-MP3-Lyrics-Tagger
 ======================
 
-This program will automatically search for the `Lyrics` of the song online ,Download the lyrics for the song and add the `Lyrics` to the song via `eyed3` Tagger.
+This program will automatically search for the `Lyrics` of the song online then download the lyrics for the song and add then `Lyrics` to the song via `eyed3` Tagger. All songs lyrics fetched in one go!
 
 ### Instructions
 * Download the archive and extract the `.py` file wherever you have your song collections.
@@ -11,6 +11,6 @@ This program will automatically search for the `Lyrics` of the song online ,Down
 * 
 
 ####Side Note:
-It currently English Songs and requires Python 2.7.8 environment
-May not work for all song files due to `Encoding` issues [working on it]
-It currently searches for songs lyrics based on the song name.[Will work by scanning current ID3 tags soon]
+1. It currently English Songs and requires Python 2.7.8 environment
+2. May not work for all song files due to `Encoding` issues [working on it]
+3. It currently searches for songs lyrics based on the song name.[Will work by scanning current ID3 tags soon]
