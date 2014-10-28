@@ -24,7 +24,7 @@ for name in song_name:
 		name  = name.replace(' ','+')
 
 		url = 'http://www.google.com/search?q='+name
-		print (url)
+		
 		req = urllib2.Request(url, headers={'User-Agent' : "foobar"})
 
 		response = urllib2.urlopen(req)
@@ -41,7 +41,7 @@ for name in song_name:
 
 
 		link = result[link_start:link_end+4]
-		print (link)
+		
 		lyrics_html = urllib2.urlopen(link).read()
 		soup = BeautifulSoup(lyrics_html)
 		raw_lyrics= (soup.findAll('p', attrs={'class' : 'verse'}))
