@@ -8,4 +8,9 @@ This program will automatically search for the `Lyrics` of the song online ,Down
 * Open the terminal in that directory
 * Type `$ python mp3_tagger.py` 
 * Wait for it to complete
+* 
 
+####Side Note:
+It currently English Songs and requires Python 2.7.8 environment
+May not work for all song files due to `Encoding` issues [working on it]
+It currently searches for songs lyrics based on the song name.[Will work by scanning current ID3 tags soon]
