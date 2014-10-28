@@ -1,3 +1,5 @@
+"""Written By Yask Srivastava  http://yask007.wordpress.com """
+
 import glob
 import eyed3
 import urllib2
