@@ -12,6 +12,10 @@ This program will automatically search for the **Lyrics** of the song online the
 * Type `$ python auto_lyrics_tagger.py` 
 * Wait for it to complete
 
+### Youtube Demo
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=xlfLY868YSo
+" target="_blank"><img src="http://img.youtube.com/vi/xlfLY868YSo/0.jpg" 
+alt="Demo" width="240" height="180" border="10" /></a>
 
 ####Side Note:
 1. It currently works with English Songs only 
