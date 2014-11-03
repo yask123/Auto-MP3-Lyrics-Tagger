@@ -6,10 +6,11 @@ This program will automatically search for the **Lyrics** of the song online the
 ### Instructions
 * If You have `pip` installed 
   * Type `pip install -r requirements.txt` to install all the dependecies
-* If you don't have `pip` installed [`manual way`]  
+* If you don't have `pip` installed
   * The file requires *eyed3* and *BeautifulSoup* modules to work , so first install those dependencies
-    *  `$ sudo pip install eyed3`
-    *  `$ sudo pip install BeautifulSoup`
+    * `$ sudo apt-get install pip` 
+    * `$ sudo pip install eyed3`
+    * `$ sudo pip install BeautifulSoup`
 * Download the archive and extract the `.py` file wherever you have your song collections.
 * Open the terminal in that directory
 * Type `$ python auto_lyrics_tagger.py` 
