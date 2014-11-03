@@ -5,7 +5,7 @@ This program will automatically search for the **Lyrics** of the song online the
 
 ### Instructions
 * If You have `pip` installed 
-  * Type `pip install -r requirements.txt` to install add the dependecies python modules
+  * Type `pip install -r requirements.txt` to install all the dependecies
 * If you don't have `pip` installed [`manual way`]  
   * The file requires *eyed3* and *BeautifulSoup* modules to work , so first install those dependencies
     *  `$ sudo pip install eyed3`
