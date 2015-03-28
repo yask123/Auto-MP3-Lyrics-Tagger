@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Auto mp3 lyrics tagger by yask123</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>Auto mp3 lyrics tagger</h1>
+        <p>This program will automatically search for the `Lyrics` of the song online and Download the lyrics for the song and also add `Lyrics` Tag to the song.</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/yask123/Auto-MP3-Lyrics-Tagger" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/yask123/Auto-MP3-Lyrics-Tagger/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/yask123/Auto-MP3-Lyrics-Tagger/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h1>
+<a id="auto-mp3-lyrics-tagger" class="anchor" href="#auto-mp3-lyrics-tagger" aria-hidden="true"><span class="octicon octicon-link"></span></a>Auto-MP3-Lyrics-Tagger</h1>
+
+<p>This program will automatically search for the <strong>Lyrics</strong> of the song online then download the lyrics for the song and add then embed <em>Lyrics</em> to the <em>mp3</em> file via <em>eyed3</em> Tagger. All songs lyrics fetched in one go!</p>
+
+<h3>
+<a id="instructions" class="anchor" href="#instructions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Instructions</h3>
+
+<ul>
+<li>If You have <code>pip</code> installed 
+
+<ul>
+<li>Type <code>pip install -r requirements.txt</code> to install all the dependecies</li>
+</ul>
+</li>
+<li>If you don't have <code>pip</code> installed
+
+<ul>
+<li>The file requires <em>eyed3</em> and <em>BeautifulSoup</em> modules to work , so first install those dependencies
+
+<ul>
+<li>
+<code>$ sudo apt-get install pip</code> </li>
+<li><code>$ sudo pip install eyed3</code></li>
+<li><code>$ sudo pip install BeautifulSoup</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Download the archive and extract the <code>.py</code> file wherever you have your song collections.</li>
+<li>Open the terminal in that directory</li>
+<li>Type <code>$ python auto_lyrics_tagger.py</code> </li>
+<li>Wait for it to complete</li>
+</ul>
+
+<h3>
+<a id="youtube-demo" class="anchor" href="#youtube-demo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Youtube Demo</h3>
+
+<p><a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=xlfLY868YSo%0A" target="_blank"><img src="http://img.youtube.com/vi/xlfLY868YSo/0.jpg" alt="Demo" width="240" height="180" border="10"></a></p>
+
+<h4>
+<a id="side-note" class="anchor" href="#side-note" aria-hidden="true"><span class="octicon octicon-link"></span></a>Side Note:</h4>
+
+<ol>
+<li>It currently works with English Songs only </li>
+<li>Requires <em>Python 2.7.8</em> with the module dependecies installed</li>
+<li>May not work for all song files due to <code>Encoding</code> issues [working on it]</li>
+<li>It currently searches for songs lyrics based on the song name.[Will work by scanning current ID3 tags soon]</li>
+</ol>
+
+<h3>
+<a id="basic-introduction-for-people-interested-in-improving-this-scraper" class="anchor" href="#basic-introduction-for-people-interested-in-improving-this-scraper" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic Introduction for people interested in improving this scraper.</h3>
+
+<p>This is a web scrapper which scrappes the  Lyrics of music currently based on the file name.</p>
+
+<p>Following things takes place</p>
+
+<ul>
+<li>Reads the name of all *.mp3 files , stores the name in a list</li>
+<li>Iterating through each song name , send a get request at <code>Google.com</code> with the query <code>song_name Lyrics</code>
+</li>
+<li>Looks if the Lyrics Page is available
+
+<ul>
+<li>If present , scrape the lyrics</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="to-contribute" class="anchor" href="#to-contribute" aria-hidden="true"><span class="octicon octicon-link"></span></a>To Contribute</h3>
+
+<p>Anyone with basic Python and Scrapping knowledge can help improving this scrapper.
+To get started install the following modules </p>
+
+<ul>
+<li>BeatifulSoup</li>
+<li>eyed3
+And run the programe.</li>
+</ul>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/yask123">yask123</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
