@@ -1,6 +1,8 @@
 Auto-MP3-Lyrics-Tagger
 ======================
 
+[![Join the chat at https://gitter.im/yask123/Auto-MP3-Lyrics-Tagger](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yask123/Auto-MP3-Lyrics-Tagger?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This program will automatically search for the **Lyrics** of the song online then download the lyrics for the song and add then embed *Lyrics* to the *mp3* file via *eyed3* Tagger. All songs lyrics fetched in one go!
 
 ### Instructions
