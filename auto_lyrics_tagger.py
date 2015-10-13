@@ -1,5 +1,3 @@
-"""Written By Yask Srivastava  http://yask007.wordpress.com """
-
 import glob
 import eyed3
 import urllib2
@@ -55,7 +53,6 @@ for name in song_name:
 		audiofile.tag.lyrics.set(u''+test1 )
 		audiofile.tag.save()
 		print('lyrics Added! ')
-
+	
 	except :
 		print ('An error occured for '+name)		
-
