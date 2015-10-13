@@ -53,7 +53,7 @@ for name in song_name:
 		test1 = test1.replace('</p>',' ')
 		print (test1)
 		audiofile.tag.lyrics.set(u''+test1 )
-		udiofile.tag.save()
+		audiofile.tag.save()
 		print('lyrics Added! ')
 
 	except :
